@@ -1,0 +1,80 @@
+/* Order section card styling */
+.order-summary {
+    margin-top: 20px;
+  }
+  
+  .order-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+  }
+
+  .order-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .order-item .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Flex container for name and quantity alignment */
+  .order-content {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  /* Item name styling */
+  .order-item-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  
+  /* Container for price and quantity */
+  .price-quantity-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px; /* Adds space between the price and quantity */
+    width: 150px;
+  }
+  
+  /* Styling for price */
+  .order-item-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: right;
+    width: 80px; /* Ensures the price is spaced appropriately */
+  }
+  
+  /* Styling for quantity */
+  .quantity {
+    font-size: 1rem;
+    color: #888;
+    text-align: right;
+    width: 40px; /* Fixed width for the quantity */
+  }
+  
+  /* Total Price section */
+  .total-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    text-align: right;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
